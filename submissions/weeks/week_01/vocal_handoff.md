@@ -1,27 +1,21 @@
 HANDOFF
-turns: 9
-learns by: definitions, examples, and seeing used in context
-domain: point processes | level: 2 | milestone: none | anchor: independent increments
-point process | claim: no | prior: none | end: introduced | "no quote"
-event time | claim: no | prior: none | end: introduced | "no quote"
-counting process | claim: no | prior: none | end: introduced | "no quote"
+turns: 13
+learns by: definition and example
+domain: point processes | level: 3 | milestone: none | anchor: independent increments
+point process | claim: no | prior: none | end: deployed | "Both metrics are blind to how many sunspot groups emerge and when they emerge"
+event time | claim: no | prior: none | end: deployed | "Using peak area as the event time is problematic because a sunspot group reaches"
+counting process | claim: no | prior: none | end: deployed | "Both metrics are blind to how many sunspot groups emerge and when they emerge"
 inter-arrival time | claim: no | prior: none | end: introduced | "no quote"
 Poisson process | claim: no | prior: none | end: introduced | "no quote"
 independent increments | claim: no | prior: none | end: introduced | "no quote"
-memoryless | claim: no | prior: none | end: introduced | "no quote"
-Fano factor | claim: no | prior: none | end: deployed | "increase the real data’s Fano factor F(1 day)"
-overdispersion | claim: no | prior: none | end: introduced | "no quote"
-other deployed: none
-other open: none
-domain: statistical inference | level: 2 | milestone: none | anchor: negative log-likelihood
-negative log-likelihood | claim: no | prior: none | end: introduced | "no quote"
-Earth Mover's Distance | claim: no | prior: none | end: deployed | "EMD are blind to the difference"
-null model | claim: no | prior: none | end: deployed | "relative to the memoryless Poisson null model."
-other deployed: NLL
-other open: none
-domain: solar cycle physics | level: 2 | milestone: none | anchor: emergence
-emergence | claim: no | prior: none | end: deployed | "emergence rate changes dramatically throughout the solar cycle"
-hemispheric cycle | claim: no | prior: none | end: introduced | "no quote"
-alignment coordinate | claim: no | prior: none | end: introduced | "no quote"
-other deployed: none
-other open: none
+memoryless | claim: no | prior: none | end: deployed | "A strongly time-varying emergence rate will make the Fano factor larger than 1... even if the underlying process is completely memoryless"
+Fano factor | claim: no | prior: none | end: deployed | "A strongly time-varying emergence rate will make the Fano factor larger than 1"
+overdispersion | claim: no | prior: none | end: deployed | "so its counts can be more overdispersed even though arrivals are independently generated"
+negative log-likelihood | claim: no | prior: none | end: deployed | "I would report both the Earth Mover’s Distance (EMD) and the negative log-likelihood (NLL)"
+Earth Mover's Distance | claim: no | prior: none | end: deployed | "I would report both the Earth Mover’s Distance (EMD) and the negative log-likelihood (NLL)"
+null model | claim: no | prior: none | end: deployed | "A shorter smoothing window allows more rate variation to remain in the null model"
+emergence | claim: no | prior: none | end: deployed | "Using peak area as the event time is problematic because a sunspot group reaches its maximum size after it first emerges"
+hemispheric cycle | claim: no | prior: none | end: deployed | "Across a 10-year cycle, solar activity ramps up and slows down drastically"
+alignment coordinate | claim: no | prior: none | end: unused | "no quote"
+other deployed: 
+other open: characterize, compare
